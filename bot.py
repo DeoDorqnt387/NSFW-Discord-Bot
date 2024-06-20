@@ -10,11 +10,6 @@ load_dotenv()
 
 Client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
-auth = "your-figgasi-auth-key" # This is your . auth
-roomId= "your-figgsai-room-id" # This is your . room_id
-botId= "your-figgsai-bot-id" # This is your . bot_id
-token = "your-discord-bot-token" # This is your . token
-
 @Client.event
 async def on_ready():
     await Client.tree.sync()
@@ -38,11 +33,11 @@ async def on_message(message):
             await ctx.typing()
 
             author = ctx.author
-            s = figgs(auth=auth)
+            s = figgs(auth=os.getenv("FIGGS_AUTH_KEY"))
             s.change_user_name(author.name)
             
-            room_id = roomId
-            bot_id = botId
+            room_id = os.getenv("ROOM_ID")
+            bot_id = os.getenv("BOT_ID")
             response = s.send_message(user_msg, room_id, bot_id)
             print(response)
             del_msg = "<|eot_id|>"
@@ -55,4 +50,4 @@ async def on_message(message):
             print("an error occured: ", e)
     else:
         return
-Client.run(token)
+Client.run(os.getenv("BOT_TOKEN"))
