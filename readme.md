@@ -1,7 +1,7 @@
 ## NSFW DISCORD CHAT BOT.
 
 Average response time 30 seconds
-![](https://github.com/DeoDorqnt387/FiggsAI-Discord-Bot/blob/main/usage.gif)
+![](https://github.com/DeoDorqnt387/FiggsAI-Discord-Bot/blob/main/DDAY.gif)
 
 ## Prerequisites
 ➤ Rename the file .env.expl to .env
