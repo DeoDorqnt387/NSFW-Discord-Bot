@@ -22,5 +22,7 @@ To use the bot you need to fill in the required fields in the .env file.
 ➤ Correctly add your Discord bot token to your BOT_TOKEN in .env. 
 
 ➤ You can get your token here: [Discord Developer Portal](https://discord.com/developers/docs/intro)
+////////////////////////////////////////////////////////////////////////////////////////////////////
+IF YOU WANT TO ADD GIF BANNER TO YOUR BOT YOU CAN RUN update_profile.py.
 
 ## That's all for now.
