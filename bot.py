@@ -10,10 +10,10 @@ load_dotenv()
 
 Client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
-auth = os.getenv("auth") # This is your .env auth
-roomId= os.getenv("RoomId") # This is your .env room_id
-botId= os.getenv("BotId") # This is your .env bot_id
-token = os.getenv("DiscordBotToken") # This is your .env token
+auth = "your-figgasi-auth-key" # This is your . auth
+roomId= "your-figgsai-room-id" # This is your . room_id
+botId= "your-figgsai-bot-id" # This is your . bot_id
+token = "your-discord-bot-token" # This is your . token
 
 @Client.event
 async def on_ready():
