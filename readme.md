@@ -15,7 +15,7 @@ To use the bot you need to fill in the required fields in the .env file.
 
 ➤ TO GET YOUR ROOMID: Enter any bot in figgs.ai to get the room Id of your bot. Copy the continuation of room_id= in the link section.
 
-➤ TO GET YOUR BOTID: copy left of room_id delete the ? until the end of the / if you copied it 
+➤ TO GET YOUR BOTID: copy left of room_id delete the ?. copy until the end of the /. 
 
 ### Paste BOTH correctly into ROOM_ID and BOT_ID in the .env.
 
