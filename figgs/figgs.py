@@ -156,5 +156,15 @@ class figgs:
                                 print("JSON decode error:", e)
             except requests.exceptions.RequestException as e:
                 print(f"Request failed: {e}")
+
+        self.payload["botId"] = bot_id
+        self.payload["roomId"] = room_id
+        self.payload["messages"].append({
+            "id": str(uuid.uuid4()),
+            "role": "assistant",
+            "content": full_text,
+            "created": created_time
+        })
+        
         self.save_payload()
         return full_text.strip()
