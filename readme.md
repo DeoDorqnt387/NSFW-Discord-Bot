@@ -6,7 +6,7 @@ Average response time 30 seconds
 ## Prerequisites
 ➤ Rename the file .env.expl to .env
 
-➤ Running pip install -r requirements.txt to install the required dependencies
+➤ Run pip install -r requirements.txt to install the required dependencies
 
 ## HOW TO USE?
 To use the bot you need to fill in the required fields in the .env file.
