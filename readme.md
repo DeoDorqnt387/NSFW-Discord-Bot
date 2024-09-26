@@ -29,4 +29,4 @@ To use the bot you need to fill in the required fields in the .env file.
 
 ➤ IF YOU WANT TO ADD GIF BANNER TO YOUR BOT YOU CAN RUN update_profile.py.
 
-## That's all for now.
+
